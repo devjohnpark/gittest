@@ -38,7 +38,7 @@ public class Stack {
     // Now, let's make method push a node to the last point.
     public void push(int data) {
         Node node = new Node(data); // we need to create new node.
-        node.next = top; // this new node point to an old top. because this new node gonna a become the top.
+        node.next = null;
         top = node; // and then the top point to new node.
     }
     // Okay, so that's all push has to do.
